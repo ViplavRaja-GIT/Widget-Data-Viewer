@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Token Viewer</string>
+    <string name="action_settings">Tokens</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="add_new_token">Add New Token</string>
+    <string name="token_name">Token Name</string>
+    <string name="access_token">Access Token</string>
+    <string name="refresh_token">Refresh Token</string>
+    <string name="refresh_api">Refresh API</string>
+    <string name="client_id">Client Id</string>
+    <string name="client_secret">Client Secret</string>
+    <string name="btn_add_token">Add Token</string>
+
+
+    <string name="config_name">Config Name</string>
+    <string name="add_new_config">Add New Data Config</string>
+    <string name="data_api">Fetch URL</string>
+    <string name="token">Select Token</string>
+    <string name="accessor">Accessor</string>
+    <string name="addDataConfig">Add Config</string>
+    <string name="add_widget">Tokens Widget</string>
+    <string name="app_widget_description">View tokens data in a widget.</string>
+    <!-- Strings used for fragments for navigation -->
+</resources>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.TokenViewer.AppWidget.Container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.TokenViewer.AppWidgetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/widget_config_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <TextView
+        style="@style/Widget.TokenViewer.AppWidget.InnerView"
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#0000"
+        android:text="No Data Available"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="8dp" />
+    <ImageButton
+        android:id="@+id/refresh_widget"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/round_corner"
+        android:src="@mipmap/refresh_foreground"
+        android:scaleType="fitCenter"/>
+</RelativeLayout>
